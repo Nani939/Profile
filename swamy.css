@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: url('https://i.ibb.co/DrpGzfZ/1724640607675.jpg');
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    backface-visibility: 20px;
+}
+/* Login Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px ;
+   background-color: rgba( 255,255,255,0,3);
+   box-shadow: inset -5px -5px 4px rgba(255,255,255,0,5);
+   border-radius: 25px;
+ 
+  
+}
+.form h1{
+    color: white;
+    text-shadow:  0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+    font-size: 3rem;
+    margin: 50px;
+}
+/* Boxes */
+.box{
+    padding:12px ;
+    margin: 20px;
+    height: 20px;
+    line-height: 40px;
+    width: 60%;
+    border-radius: 25px;
+    background-color:transparent;
+    box-shadow: -3px -3px ;
+    color: black;
+    font-size: 1rem;
+  
+   
+}
+.form button{
+    background-color:aqua;
+    box-shadow: 0px 0px 20px aqua;
+    border-radius: 12px;
+    height: 40px;
+    line-height:20px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 40%;
+   
+  
+    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan, 0px 0px 40px cyan, 0px 0px 80px cyan;
+   text-align: center;
+    font-size: 2rem;
+ text-transform: uppercase;
+}
+.button:hover{
+    box-shadow: 0px 0px 50px aqua;
+    
+}
+.form input{
+    background:transparent;
+    font-size: bold;
+    color: black;
+    text-align: center;
+    
+}
